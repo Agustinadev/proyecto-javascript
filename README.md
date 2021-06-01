@@ -1,11 +1,11 @@
 # Mini web hecha con Javascript por Agustina Valentin.
 
-[Proyecto mini-web aquí](https://agustinadev.github.io/carpeta-javascript/proyecto-mini-web/proyecto-miniweb.html)
+[Proyecto mini-web aquí](https://agustinadev.github.io/proyecto-javascript/proyecto-mini-web/proyecto-miniweb.html)
 
 # PokeAPI
 
-[PokeAPI aquí](https://agustinadev.github.io/carpeta-javascript/pokemon/pokeapi.html)
+[PokeAPI aquí](https://agustinadev.github.io/proyecto-javascript/pokemon/pokeapi.html)
 
 # Buscador de shows.
 
-[Proyecto mini-web aquí](https://agustinadev.github.io/carpeta-javascript/buscador-de-shows/api-tv-show.html)
+[Proyecto mini-web aquí](https://agustinadev.github.io/proyecto-javascript/buscador-de-shows/api-tv-show.html)
