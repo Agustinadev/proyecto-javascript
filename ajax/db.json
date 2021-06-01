@@ -1,0 +1,72 @@
+{
+  "GravityFalls": [
+    {
+      "nombre": "Mabel",
+      "signo": "estrella fugaz",
+      "id": 1
+    },
+    {
+      "nombre": "Dipper",
+      "signo": "Pino",
+      "id": 2
+    },
+    {
+      "id": 4,
+      "nombre": "Guideon",
+      "apellido": "Alegria",
+      "cabello": "blanco",
+      "signo": "estrella de cinco puntas"
+    },
+    {
+      "id": 5,
+      "nombre": "Tio Stan",
+      "apellido": "Pines",
+      "cabello": "gris",
+      "signo": "pez"
+    },
+    {
+      "id": 6,
+      "nombre": "Wendy",
+      "apellido": "Cordoroy",
+      "cabello": "naranja",
+      "signo": "Bolsa de hielo"
+    },
+    {
+      "nombre": "robbie",
+      "signo": "corazon roto",
+      "id": 11
+    }
+  ],
+  "Lenguajes": [
+    {
+      "id": 1,
+      "nombre": "Javascript",
+      "dificultad": "media",
+      "tipo": "frontend"
+    },
+    {
+      "id": 2,
+      "nombre": "Java",
+      "dificultad": "difícil",
+      "tipo": "backend"
+    },
+    {
+      "id": 3,
+      "nombre": "Python",
+      "dificultad": "media",
+      "tipo": "backend"
+    },
+    {
+      "id": 4,
+      "nombre": "PHP",
+      "dificultad": "media",
+      "tipo": "backend"
+    },
+    {
+      "id": 5,
+      "nombre": "Ruby",
+      "dificultad": "media",
+      "tipo": "backend"
+    }
+  ]
+}

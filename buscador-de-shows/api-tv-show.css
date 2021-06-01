@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.loader {
+  justify-self: center;
+  align-self: center;
+}
+
+body {
+  background-color: rgb(213, 174, 250);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: rgb(57, 13, 102);
+  text-align: center;
+}
+
+input {
+  align-self: center;
+  width: 200px;
+  text-align: center;
+}

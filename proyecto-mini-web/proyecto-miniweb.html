@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es" data-dark>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="proyecto-miniweb.css">
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+  <title>Mini Web</title>
+</head>
+
+<body data-dark>
+  <header class="header">
+    <section class="container">
+
+
+
+      <nav class="nav">
+        <a href="#section-1" data-scroll-spy>Reloj digital y Alarma sonora</a>
+        <a href="#section-2" data-scroll-spy>Eventos del Teclado</a>
+        <a href="#section-3" data-scroll-spy>Cuenta Regresiva</a>
+        <a href="#section-4" data-scroll-spy>Responsive Javascript</a>
+        <a href="#section-5" data-scroll-spy>Responsive Tester</a>
+        <a href="#section-6" data-scroll-spy>Detección de user agent(no disponible)</a>
+        <a href="#section-7" data-scroll-spy>Detección de la conexión</a>
+        <a href="#section-8" data-scroll-spy>Detección de la WebCam</a>
+        <a href="#section-9" data-scroll-spy>Geolocalización</a>
+        <a href="#section-10" data-scroll-spy>Filtro de búsqueda</a>
+        <a href="#section-11" data-scroll-spy>Sorteo Digital</a>
+        <a href="#section-12" data-scroll-spy>responsive Slider</a>
+        <a href="#section-13" data-scroll-spy>video inteligente</a>
+        <a href="#section-14" data-scroll-spy>validaciones de formulario</a>
+        <a href="#section-15" data-scroll-spy>Lector de Voz</a>
+      </nav>
+
+
+    </section>
+  </header>
+
+
+  <main class="main">
+    <h1 data-special class="fixed">Ejercicios del DOM</h1>
+
+    <section class="section-1" data-scroll-spy id="section-1">
+      <h3>Reloj digital y Alarma sonora</h3>
+      <div id="reloj">
+        <h3>00:00:00</h3>
+      </div>
+      <div class="buttonn" data-special>
+        <button id="activar-reloj">Activar reloj</button>
+        <button id="desactivar-reloj">Desactivar reloj</button>
+        <button id="activar-alarma">Activar alarma</button>
+        <button id="desactivar-alarma">Desactivar alarma</button>
+      </div>
+    </section>
+
+
+    <section class="section-2 section-bg " data-scroll-spy data-special id="section-2">
+      <h3>Eventos del teclado</h3>
+      <article class="stage">
+        <img class="ball" src="assets/gatito-nani-ccortao2.png" alt="">
+      </article>
+    </section>
+
+    <section class="section-3" data-scroll-spy id="section-3">
+      <h3>Cuenta Regresiva</h3>
+      <div id="countdown"></div>
+    </section>
+
+    <section class="section-4 section-bg " data-scroll-spy data-special id="section-4">
+      <h3>Responsive Javascript</h3>
+      <div id="youtube"></div>
+      <div id="gmaps"></div>
+    </section>
+
+    <section class="section-5" data-scroll-spy id="section-5">
+      <h3>Responsive Tester</h3>
+      <form id="responsive-tester">
+        <input type="url" name="direction" placeholder="URL" required>
+        <br>
+        <input type="text" name="ancho" placeholder="Ancho" required>
+        <br>
+        <input type="text" name="alto" placeholder="Alto" required>
+        <br>
+        <input type="submit" name="probar" value="Probar">
+        <input type="button" name="cerrar" value="Cerrar">
+      </form>
+    </section>
+
+
+    <section class="section-6 section-bg" data-scroll-spy data-special id="section-6">
+      <h3>Detección de user agent (no disponible)</h3>
+    </section>
+
+    <section class="section-7" data-scroll-spy id="section-7">
+      <h3>Detección de la conexión</h3>
+    </section>
+
+    <section class="section-8 section-bg" data-scroll-spy data-special id="section-8">
+      <h3>Detección de la WebCam</h3>
+      <video src="" id="webcam"></video>
+    </section>
+
+    <section class="section-9" data-scroll-spy id="section-9">
+      <h3>Geolocalización</h3>
+      <div id="geolocation"></div>
+    </section>
+
+    <section class="section-10 section-bg" data-scroll-spy data-special id="section-10">
+      <h3>Filtro de búsqueda</h3>
+      <input type="search" name="buscar" placeholder="buscar" class="input-buscar">
+
+      <article class="cards">
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/tech" alt="tech">
+          <figcaption>tech</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/animals" alt="animals">
+          <figcaption>animals</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/arch" alt="arch">
+          <figcaption>arch</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/people" alt="people">
+          <figcaption>people</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/nature" alt="nature">
+          <figcaption>nature</figcaption>
+        </figure>
+
+        <figure class="card">
+          <img src="https://placeimg.com/200/200/any" alt="any">
+          <figcaption>any</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section class="section-11" data-scroll-spy id="section-11">
+      <h3>Sorteo Digital</h3>
+      <ul class="players">
+        <li class="player">nanicho</li>
+        <li class="player">guguilla</li>
+        <li class="player">beni</li>
+        <li class="player">fiona</li>
+        <li class="player">romi</li>
+        <li class="player">killita</li>
+        <li class="player">bella</li>
+        <li class="player">acelga</li>
+        <li class="player">kenai</li>
+        <li class="player">manchi</li>
+      </ul>
+      <button id="winner-btn">Obtener ganador</button>
+    </section>
+
+    <section class="section-12" data-scroll-spy data-special id="section-12">
+      <h3>Responsive Slider</h3>
+      <div class="slider">
+
+        <div class="slider-slides">
+          <div class="slider-slide active">
+            <img src="https://placeimg.com/400/400/Animals" alt="Animals">
+          </div>
+          <div class="slider-slide">
+            <h4>diapositiva 2</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sapiente, consectetur in sequi
+              laudantium non rerum, dolorum repellat adipisci earum assumenda tenetur vel ea. A ratione eveniet
+              voluptatem aliquam reprehenderit? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat
+              aliquid numquam nobis vero, est dolor repudiandae commodi amet libero dignissimos pariatur obcaecati at
+              eius voluptas! Labore mollitia velit repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Sequi consequatur, animi velit totam perferendis commodi et harum saepe tempora qui aperiam voluptatum
+              excepturi similique recusandae quae facilis hic doloremque iusto. lorem</p>
+          </div>
+          <div class="slider-slide">
+            <img src="https://placeimg.com/400/400/Nature" alt="Nature">
+          </div>
+          <div class="slider-slide">
+            <h4>diapositiva 4</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita sapiente, consectetur in sequi
+              laudantium non
+              rerum, dolorum repellat adipisci earum assumenda tenetur vel ea. A ratione eveniet voluptatem aliquam
+              reprehenderit?
+            </p>
+          </div>
+        </div>
+
+        <div class="slider-boton">
+          <a href="#" class="prev">&laquo</a>
+          <a href="#" class="next">&raquo</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section-13" data-scroll-spy id="section-13">
+      <h3>Video inteligente</h3>
+      <video controls muted data-video src="assets/redhotmp4.mp4" class="vidio"></video>
+
+    </section>
+
+    <section class="section-14" data-scroll-spy data-special id="section-14">
+      <h3>Validacions de formulario</h3>
+      <form target="_blank" class="contact-form" action="https://formsubmit.co/agustina.belen.valentin@gmail.com"
+        method="POST">
+        <legend>Envianos tu comentario</legend>
+
+        <input type="text" name="name" placeholder="escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+          title="El nombre solo permite letras y espacios" required>
+
+        <input type="email" name="mail" placeholder="escribe tu correo"
+          pattern="^[a-z0-9]+(.[._a-z0-9]+)@[a-z0-9-]+(.[a-z0-9-]+)(.[a-z]{2,15})$"
+          title="El mail solo permite caractéres de email" required>
+
+        <input type="text" name="subject" placeholder="escribe tu asunto" title="El asunto es requerido" required>
+
+        <textarea name="comments" cols="50" rows="5" required placeholder="Escribe tus comentarios"
+          data-pattern="^.{1,255}$" title="pasaste el limite de 250 caracteres"></textarea>
+
+        <input type="submit" value="enviar">
+
+        <div class="contact-form-loader none">
+          <svg data-svg width="140" height="64" viewBox="0 0 140 64" xmlns="http://www.w3.org/2000/svg" fill="#700"
+            stroke="704">
+            <path
+              d="M30.262 57.02L7.195 40.723c-5.84-3.976-7.56-12.06-3.842-18.063 3.715-6 11.467-7.65 17.306-3.68l4.52 3.76 2.6-5.274c3.717-6.002 11.47-7.65 17.305-3.68 5.84 3.97 7.56 12.054 3.842 18.062L34.49 56.118c-.897 1.512-2.793 1.915-4.228.9z"
+              fill-opacity=".5">
+              <animate attributeName="fill-opacity" begin="0s" dur="1.4s" values="0.5;1;0.5" calcMode="linear"
+                repeatCount="indefinite" />
+            </path>
+            <path
+              d="M105.512 56.12l-14.44-24.272c-3.716-6.008-1.996-14.093 3.843-18.062 5.835-3.97 13.588-2.322 17.306 3.68l2.6 5.274 4.52-3.76c5.84-3.97 13.592-2.32 17.307 3.68 3.718 6.003 1.998 14.088-3.842 18.064L109.74 57.02c-1.434 1.014-3.33.61-4.228-.9z"
+              fill-opacity=".5">
+              <animate attributeName="fill-opacity" begin="0.7s" dur="1.4s" values="0.5;1;0.5" calcMode="linear"
+                repeatCount="indefinite" />
+            </path>
+            <path
+              d="M67.408 57.834l-23.01-24.98c-5.864-6.15-5.864-16.108 0-22.248 5.86-6.14 15.37-6.14 21.234 0L70 16.168l4.368-5.562c5.863-6.14 15.375-6.14 21.235 0 5.863 6.14 5.863 16.098 0 22.247l-23.007 24.98c-1.43 1.556-3.757 1.556-5.188 0z" />
+          </svg>
+
+        </div>
+
+        <div class=" contact-form-response none">
+          <p>Los datos han sido enviados</p>
+        </div>
+      </form>
+    </section>
+
+    <section class=" section-15" data-scroll-spy id="section-15">
+      <h3>Lector de voz</h3>
+      <select name="" id="speech-select">
+        <option value="">---Elige la voz---</option>
+        <br> <br>
+      </select>
+      <br><br>
+      <button id="speech-boton">Leer texto</button>
+      <textarea name="textarea" id="speech-text" cols="50" rows="5"
+        placeholder="Ingresa el texto que será leido"></textarea>
+    </section>
+
+
+
+
+
+    <button class="violin-boton hidden">
+      <img src="assets/violin.png" alt="violin" class="violin" title="Ir hacia arriba">
+    </button>
+
+    <button class="boton-luz-oscuridad">
+      <img src="
+      assets/luzprendida.png" alt="luz" class="luz" title="cambiar a modo oscuro">
+      <img src="assets/luzapagada.png" alt="oscuridad" class="oscuridad hidden" title="cambiar a modo claro">
+    </button>
+
+    <div class="container-botones">
+      <button class="icono">
+        <img src="assets/menu.png" class="img icono-menu">
+        <img src="assets/cancelar.png" class="img icono-cancelar none">
+      </button>
+    </div>
+  </main>
+
+  <footer class="footer"></footer>
+
+
+  <script src="proyecto-miniweb.js" type="module"></script>
+
+</body>
+
+</html>
