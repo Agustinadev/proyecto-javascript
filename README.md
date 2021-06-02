@@ -8,4 +8,4 @@
 
 # Buscador de shows.
 
-[Proyecto mini-web aquí](https://agustinadev.github.io/proyecto-javascript/buscador-de-shows/api-tv-show.html)
+[Buscador de Shows aquí](https://agustinadev.github.io/proyecto-javascript/buscador-de-shows/api-tv-show.html)
