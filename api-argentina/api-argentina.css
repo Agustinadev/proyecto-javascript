@@ -1,0 +1,35 @@
+.none {
+  display: none;
+}
+
+/* main {
+  display: flex;
+  justify-content: center;
+} */
+
+body {
+  text-align: center;
+  background-color: black;
+}
+
+h1 {
+  color: rgb(18, 230, 230);
+}
+
+main {
+  font-family: "Crete Round", serif;
+}
+
+.select {
+  background-color: rgb(20, 20, 19);
+  color: aqua;
+  outline: none;
+  font-weight: 600;
+  width: 50%;
+  height: 7vh;
+}
+.provincias {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}

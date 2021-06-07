@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.loader {
+  display: none;
+  margin: 2rem auto;
+}
+
+a {
+  color: rgb(107, 55, 107);
+  transition: color 0.3s ease-out;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  border: thin solid rgb(33, 2, 145);
+  margin: 3rem auto;
+  width: 90%;
+}
+
+.post-image {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.site {
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 50%;
+  text-align: center;
+}
+
+.post {
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 80%;
+  text-align: center;
+  background-color: rgb(248, 167, 167);
+}
+
+.post-author img {
+  border-radius: 50%;
+}
+
+.post-date {
+  margin: 1rem auto;
+  display: block;
+}
+
+.post-excerpt,
+.post-categories,
+.post-tags,
+.post-content {
+  text-align: left;
+}
+
+.post-content summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.post-content > article {
+  padding: 1rem;
+  background-color: rgb(209, 143, 143);
+}

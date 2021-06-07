@@ -21,6 +21,7 @@ const d = document,
               if (artistJson.artists === null) {
                 $artistTemplate = `<h2>no existe el interprete <mark>${artist}</mark></h2>`
               }else{
+            
                 let artist = artistJson.artists[0];
                 $artistTemplate = `<h3>${artist.strArtist}</h3>
                 <img src="${artist.strArtistThumb}" alt="${artist.strArtist}">

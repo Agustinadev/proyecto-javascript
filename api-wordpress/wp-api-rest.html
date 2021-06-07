@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordpress rest-api</title>
+  <link rel="stylesheet" href="wp-api-rest.css">
+</head>
+
+<body>
+  <h1>WordPress REST API</h1>
+  <article id="site" class="site"></article>
+  <section id="posts" class="posts"></section>
+  <img src="assets/hearts.svg" class="loader">
+
+  <template id="post-template">
+    <article class="post">
+      <img src="" alt="" class="post-image">
+      <aside>
+        <h2 class="post-title"></h2>
+        <figure class="post-author"></figure>
+        <small class="post-date"></small>
+        <a href="" target="_blank" class="post-link">Ver publicación original</a>
+        <div class="post-excerpt"></div>
+        <p class="post-categories"></p>
+        <div class="post-tags"></div>
+        <details class="post-content">
+          <summary>Ver contenido de la publicación</summary>
+          <article></article>
+        </details>
+      </aside>
+    </article>
+    <hr>
+  </template>
+
+  <script src="wp-api-rest.js"></script>
+</body>
+
+</html>
